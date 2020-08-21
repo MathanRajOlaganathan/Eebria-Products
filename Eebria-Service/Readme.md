@@ -1,4 +1,4 @@
-# Build Reactive Rest APIs with Spring WebFlux
+# Reactive Rest APIs with Spring WebFlux
 
 ## Requirements
 
