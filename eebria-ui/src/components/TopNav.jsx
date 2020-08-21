@@ -27,7 +27,7 @@ export class TopNav extends Component {
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <NavLink href="https://github.com/MathanRajOlaganathan">Github</NavLink>
+                                <NavLink href="https://github.com/MathanRajOlaganathan/Eebria-Products">Github</NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>
