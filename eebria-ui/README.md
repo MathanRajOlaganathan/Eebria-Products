@@ -4,7 +4,7 @@ Simple Web UI showing the produts sorted by price in desending order using the s
 
 This project template was built with [Create React App](https://github.com/facebookincubator/create-react-app). (**requires Node**)
 
-**Techs:** React, react-bootstrap, axios for http requests, and several react components.
+**Techs:** React, reactstrap, axios for http requests, and several react components.
 
 **Installing dependencies**
 
