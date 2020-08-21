@@ -66,12 +66,16 @@ The application defines following REST APIs
 ```
 ## API Screenshots
 
+**1.Get ALL Produts**
 ![getAllProducts](https://github.com/MathanRajOlaganathan/Eebria-Products/blob/master/Eebria-Service/imgs/eebria-getProducts.jpg?raw=true)
 
+**2.Get Produts by  Type**
 ![getProductsByType](https://github.com/MathanRajOlaganathan/Eebria-Products/blob/master/Eebria-Service/imgs/eebria-type.jpg?raw=true)
 
+**3.Get Produts by Range**
 ![getProductsByRange](https://github.com/MathanRajOlaganathan/Eebria-Products/blob/master/Eebria-Service/imgs/eebria-range.jpg?raw=true)
 
+**4.Get Sorted Produts**
 ![getProductsBySort](https://github.com/MathanRajOlaganathan/Eebria-Products/blob/master/Eebria-Service/imgs/eebria-sort.jpg?raw=true)
 
 
