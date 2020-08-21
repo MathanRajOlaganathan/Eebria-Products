@@ -45,8 +45,6 @@ docker run  -d -p 8080:8080 mathanpointer/eebria-service
 
 ```
 
-
-
 The server will start at <http://localhost:8080>.
 
 The swagger will start at <http://localhost:8080/swagger-ui/>.
@@ -58,10 +56,37 @@ The application defines following REST APIs
 ```
 1. GET /my-eebria/product - Get All Products
 
-2. GET /my-eebria/product?type=beer - Get  All Products  by type
+2. GET /my-eebria/product?type=beer - Get  All Products  by type (type - beer  or cider)
 
-3. GET ​/my-eebria​/product​/{range} - Retrieve a Product by range
 
-3. GET ​/my-eebria​/product​/sort?OrderBy=name,price&direction=ASC - Retrieve all Products Ordered by name,price in ascending or descending direction
+3. GET ​/my-eebria​/product​/{range} - Retrieve a Product by range (range - cheaper or expensive)
+
+3. GET ​/my-eebria​/product​/sort?OrderBy=name,price&direction=ASC - Retrieve all Products Ordered by name,price in ascending or descending direction ( sorting can be done by  name or price alone or both ascending and descending.  orderBy - name,price direction-ASC or DESC)
 
 ```
+## API Screenshots
+
+**1.Get ALL Produts**
+
+
+![getAllProducts](https://github.com/MathanRajOlaganathan/Eebria-Products/blob/master/Eebria-Service/imgs/eebria-getProducts.jpg?raw=true)
+
+
+**2.Get Produts by  Type**
+
+![getProductsByType](https://github.com/MathanRajOlaganathan/Eebria-Products/blob/master/Eebria-Service/imgs/eebria-type.jpg?raw=true)
+
+
+**3.Get Produts by Range**
+
+![getProductsByRange](https://github.com/MathanRajOlaganathan/Eebria-Products/blob/master/Eebria-Service/imgs/eebria-range.jpg?raw=true)
+
+
+**4.Get Sorted Produts**
+
+![getProductsBySort](https://github.com/MathanRajOlaganathan/Eebria-Products/blob/master/Eebria-Service/imgs/eebria-sort.jpg?raw=true)
+
+
+
+
+
