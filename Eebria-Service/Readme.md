@@ -1,7 +1,5 @@
 # Build Reactive Rest APIs with Spring WebFlux
 
-Read the tutorial : https://www.callicoder.com/reactive-rest-apis-spring-webflux-reactive-mongo/
-
 ## Requirements
 
 1. Java - 1.11
