@@ -1,7 +1,5 @@
 # Build Reactive Rest APIs with Spring WebFlux
 
-Read the tutorial : https://www.callicoder.com/reactive-rest-apis-spring-webflux-reactive-mongo/
-
 ## Requirements
 
 1. Java - 1.11
@@ -54,7 +52,7 @@ The swagger will start at <http://localhost:8080/swagger-ui/>.
 The application defines following REST APIs
 
 ```
-1. GET /my-eebria/product - Get All Products
+1. GET /my-eebria/product - Get All Products 
 
 2. GET /my-eebria/product?type=beer - Get  All Products  by type (type - beer  or cider)
 
@@ -68,21 +66,28 @@ The application defines following REST APIs
 
 **1.Get ALL Produts**
 
+<http://localhost:8080/my-eebria/product>.
 
 ![getAllProducts](https://github.com/MathanRajOlaganathan/Eebria-Products/blob/master/Eebria-Service/imgs/eebria-getProducts.jpg?raw=true)
 
 
 **2.Get Produts by  Type**
 
+<http://localhost:8080/my-eebria/product?type=cider>.
+
 ![getProductsByType](https://github.com/MathanRajOlaganathan/Eebria-Products/blob/master/Eebria-Service/imgs/eebria-type.jpg?raw=true)
 
 
 **3.Get Produts by Range**
 
+<http://localhost:8080/my-eebria/product/expensive>.
+
 ![getProductsByRange](https://github.com/MathanRajOlaganathan/Eebria-Products/blob/master/Eebria-Service/imgs/eebria-range.jpg?raw=true)
 
 
 **4.Get Sorted Produts**
+
+http://localhost:8080/my-eebria/product/sort?orderBy=name,price&direction=DESC
 
 ![getProductsBySort](https://github.com/MathanRajOlaganathan/Eebria-Products/blob/master/Eebria-Service/imgs/eebria-sort.jpg?raw=true)
 
