@@ -1,0 +1,524 @@
+2020-08-21 07:57:44.137  INFO 8496 --- [main] c.e.s.EebriaProductsApplicationTests     : Starting EebriaProductsApplicationTests on pOiNtER with PID 8496 (started by omrfr in P:\Github\Eebria-Service)
+2020-08-21 07:57:44.137 DEBUG 8496 --- [main] c.e.s.EebriaProductsApplicationTests     : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-08-21 07:57:44.138  INFO 8496 --- [main] c.e.s.EebriaProductsApplicationTests     : No active profile set, falling back to default profiles: default
+2020-08-21 07:57:50.149  INFO 8496 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 58830
+2020-08-21 07:57:50.206  INFO 8496 --- [main] c.e.s.EebriaProductsApplicationTests     : Started EebriaProductsApplicationTests in 6.927 seconds (JVM running for 12.624)
+2020-08-21 07:57:51.403  INFO 8496 --- [reactor-http-nio-3] c.e.s.controller.ProductController       : API received request: /my-eebria/product/cheaper input param: range: cheaper
+2020-08-21 07:57:51.407  INFO 8496 --- [reactor-http-nio-3] c.e.s.s.ProductServiceImplementation     : Fetching the products by range:ProductServiceImplementation:getProductByRange()
+2020-08-21 07:57:52.182  INFO 8496 --- [reactor-http-nio-3] c.e.s.controller.ProductController       : API received request: /my-eebria/product input param: type: beer
+2020-08-21 07:57:52.184  INFO 8496 --- [reactor-http-nio-3] c.e.s.s.ProductServiceImplementation     : Fetching the products by type:ProductServiceImplementation:getProductsByType()
+2020-08-21 07:57:52.391  INFO 8496 --- [reactor-http-nio-3] c.e.s.controller.ProductController       : API received request: /my-eebria/product/sort input params: orderBy: [name] ,direction: DESC
+2020-08-21 07:57:52.396  INFO 8496 --- [reactor-http-nio-3] c.e.s.s.ProductServiceImplementation     : Fetching the sorted products:ProductServiceImplementation:sortProducts()
+2020-08-21 07:58:19.163  INFO 9452 --- [main] c.e.service.EebriaServiceApplication     : Starting EebriaServiceApplication on pOiNtER with PID 9452 (P:\Github\Eebria-Service\target\classes started by omrfr in P:\Github\Eebria-Service)
+2020-08-21 07:58:19.168 DEBUG 9452 --- [main] c.e.service.EebriaServiceApplication     : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-08-21 07:58:19.170  INFO 9452 --- [main] c.e.service.EebriaServiceApplication     : No active profile set, falling back to default profiles: default
+2020-08-21 07:58:22.178  INFO 9452 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 8080
+2020-08-21 07:58:22.230  INFO 9452 --- [main] c.e.service.EebriaServiceApplication     : Started EebriaServiceApplication in 4.092 seconds (JVM running for 7.56)
+2020-08-21 07:59:01.038  INFO 12732 --- [main] c.e.service.EebriaServiceApplication     : Starting EebriaServiceApplication on pOiNtER with PID 12732 (P:\Github\Eebria-Service\target\classes started by omrfr in P:\Github\Eebria-Service)
+2020-08-21 07:59:01.042 DEBUG 12732 --- [main] c.e.service.EebriaServiceApplication     : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-08-21 07:59:01.043  INFO 12732 --- [main] c.e.service.EebriaServiceApplication     : No active profile set, falling back to default profiles: default
+2020-08-21 07:59:04.390  INFO 12732 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 8080
+2020-08-21 07:59:04.434  INFO 12732 --- [main] c.e.service.EebriaServiceApplication     : Started EebriaServiceApplication in 4.426 seconds (JVM running for 6.869)
+2020-08-21 08:02:22.796  INFO 9904 --- [main] c.e.service.EebriaServiceApplication     : Starting EebriaServiceApplication on pOiNtER with PID 9904 (P:\Github\Eebria-Service\target\classes started by omrfr in P:\Github\Eebria-Service)
+2020-08-21 08:02:22.802 DEBUG 9904 --- [main] c.e.service.EebriaServiceApplication     : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-08-21 08:02:22.804  INFO 9904 --- [main] c.e.service.EebriaServiceApplication     : No active profile set, falling back to default profiles: default
+2020-08-21 08:02:26.664  INFO 9904 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 8080
+2020-08-21 08:02:27.140  INFO 9904 --- [main] c.e.service.EebriaServiceApplication     : Started EebriaServiceApplication in 5.099 seconds (JVM running for 7.533)
+2020-08-21 08:04:25.229  INFO 9904 --- [reactor-http-nio-2] c.e.s.controller.ProductController       : API received request: /my-eebria/product/sort input params: orderBy: [price, name] ,direction: ASC
+2020-08-21 08:04:25.234  INFO 9904 --- [reactor-http-nio-2] c.e.s.s.ProductServiceImplementation     : Fetching the sorted products:ProductServiceImplementation:sortProducts()
+2020-08-21 09:02:25.205  INFO 21280 --- [main] c.e.service.EebriaServiceApplication     : Starting EebriaServiceApplication on pOiNtER with PID 21280 (P:\Github\Eebria-Service\target\classes started by omrfr in P:\Github\Eebria-Service)
+2020-08-21 09:02:25.208 DEBUG 21280 --- [main] c.e.service.EebriaServiceApplication     : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-08-21 09:02:25.210  INFO 21280 --- [main] c.e.service.EebriaServiceApplication     : No active profile set, falling back to default profiles: default
+2020-08-21 09:02:28.506  INFO 21280 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 8080
+2020-08-21 09:02:28.891  INFO 21280 --- [main] c.e.service.EebriaServiceApplication     : Started EebriaServiceApplication in 4.121 seconds (JVM running for 4.887)
+2020-08-21 09:02:39.184  INFO 21280 --- [reactor-http-nio-3] c.e.s.controller.ProductController       : API received request: /my-eebria/product input param: type: 
+2020-08-21 09:02:39.186  INFO 21280 --- [reactor-http-nio-3] c.e.s.s.ProductServiceImplementation     : Fetching the products:ProductServiceImplementation:getAllProducts()
+2020-08-21 09:17:58.913  INFO 2080 --- [main] c.e.service.EebriaServiceApplication     : Starting EebriaServiceApplication on pOiNtER with PID 2080 (P:\Github\Eebria-Service\target\classes started by omrfr in P:\Github\Eebria-Service)
+2020-08-21 09:17:58.918 DEBUG 2080 --- [main] c.e.service.EebriaServiceApplication     : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-08-21 09:17:58.919  INFO 2080 --- [main] c.e.service.EebriaServiceApplication     : No active profile set, falling back to default profiles: default
+2020-08-21 09:18:02.438  INFO 2080 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 8080
+2020-08-21 09:18:02.841  INFO 2080 --- [main] c.e.service.EebriaServiceApplication     : Started EebriaServiceApplication in 4.363 seconds (JVM running for 5.152)
+2020-08-21 09:18:14.650  INFO 2080 --- [reactor-http-nio-3] c.e.s.controller.RedirectController      : Redirecting
+2020-08-21 09:20:14.269  INFO 2080 --- [reactor-http-nio-3] c.e.s.controller.RedirectController      : Redirecting
+2020-08-21 09:20:16.293  INFO 2080 --- [reactor-http-nio-3] c.e.s.controller.RedirectController      : Redirecting
+2020-08-21 09:20:16.883  INFO 2080 --- [reactor-http-nio-3] c.e.s.controller.RedirectController      : Redirecting
+2020-08-21 09:20:17.074  INFO 2080 --- [reactor-http-nio-3] c.e.s.controller.RedirectController      : Redirecting
+2020-08-21 09:20:17.243  INFO 2080 --- [reactor-http-nio-3] c.e.s.controller.RedirectController      : Redirecting
+2020-08-21 09:20:20.117  INFO 2080 --- [reactor-http-nio-3] c.e.s.controller.RedirectController      : Redirecting
+2020-08-21 09:20:53.722  INFO 2080 --- [reactor-http-nio-3] c.e.s.controller.ProductController       : API received request: /my-eebria/product input param: type: 
+2020-08-21 09:20:53.723  INFO 2080 --- [reactor-http-nio-3] c.e.s.s.ProductServiceImplementation     : Fetching the products:ProductServiceImplementation:getAllProducts()
+2020-08-21 09:23:00.020  INFO 13292 --- [main] c.e.service.EebriaServiceApplication     : Starting EebriaServiceApplication on pOiNtER with PID 13292 (P:\Github\Eebria-Service\target\classes started by omrfr in P:\Github\Eebria-Service)
+2020-08-21 09:23:00.025 DEBUG 13292 --- [main] c.e.service.EebriaServiceApplication     : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-08-21 09:23:00.034  INFO 13292 --- [main] c.e.service.EebriaServiceApplication     : No active profile set, falling back to default profiles: default
+2020-08-21 09:23:03.705  INFO 13292 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 8080
+2020-08-21 09:23:04.142  INFO 13292 --- [main] c.e.service.EebriaServiceApplication     : Started EebriaServiceApplication in 4.58 seconds (JVM running for 5.425)
+2020-08-21 09:23:12.919  INFO 13292 --- [reactor-http-nio-2] c.e.s.controller.RedirectController      : Redirecting
+2020-08-21 09:24:56.572  INFO 15328 --- [main] c.e.service.EebriaServiceApplication     : Starting EebriaServiceApplication on pOiNtER with PID 15328 (P:\Github\Eebria-Service\target\classes started by omrfr in P:\Github\Eebria-Service)
+2020-08-21 09:24:56.577 DEBUG 15328 --- [main] c.e.service.EebriaServiceApplication     : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-08-21 09:24:56.578  INFO 15328 --- [main] c.e.service.EebriaServiceApplication     : No active profile set, falling back to default profiles: default
+2020-08-21 09:25:00.496  INFO 15328 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 8080
+2020-08-21 09:25:00.945  INFO 15328 --- [main] c.e.service.EebriaServiceApplication     : Started EebriaServiceApplication in 5.102 seconds (JVM running for 6.241)
+2020-08-21 09:25:05.557  INFO 15328 --- [reactor-http-nio-2] c.e.s.controller.RedirectController      : Redirecting
+2020-08-21 09:25:05.732 ERROR 15328 --- [reactor-http-nio-2] c.e.s.Exception.GlobalExceptionHandler   : ErrorMessage : java.lang.IllegalStateException: Could not resolve view with name 'redirect:/my-eebria/product'.
+2020-08-21 09:29:41.862  INFO 14772 --- [main] c.e.service.EebriaServiceApplication     : Starting EebriaServiceApplication on pOiNtER with PID 14772 (P:\Github\Eebria-Service\target\classes started by omrfr in P:\Github\Eebria-Service)
+2020-08-21 09:29:41.872 DEBUG 14772 --- [main] c.e.service.EebriaServiceApplication     : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-08-21 09:29:41.882  INFO 14772 --- [main] c.e.service.EebriaServiceApplication     : No active profile set, falling back to default profiles: default
+2020-08-21 09:29:48.094  INFO 14772 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 8080
+2020-08-21 09:29:48.673  INFO 14772 --- [main] c.e.service.EebriaServiceApplication     : Started EebriaServiceApplication in 7.323 seconds (JVM running for 8.381)
+2020-08-21 09:29:55.933  INFO 14772 --- [reactor-http-nio-2] c.e.s.controller.ProductController       : API received request: /my-eebria/product input param: type: 
+2020-08-21 09:29:55.934  INFO 14772 --- [reactor-http-nio-2] c.e.s.s.ProductServiceImplementation     : Fetching the products:ProductServiceImplementation:getAllProducts()
+2020-08-21 09:30:06.778  INFO 14772 --- [reactor-http-nio-2] c.e.s.controller.ProductController       : API received request: /my-eebria/product input param: type: 
+2020-08-21 09:30:06.778  INFO 14772 --- [reactor-http-nio-2] c.e.s.s.ProductServiceImplementation     : Fetching the products:ProductServiceImplementation:getAllProducts()
+2020-08-21 09:30:15.698  INFO 14772 --- [reactor-http-nio-2] c.e.s.controller.ProductController       : API received request: /my-eebria/product/cheaper input param: range: cheaper
+2020-08-21 09:30:15.701  INFO 14772 --- [reactor-http-nio-2] c.e.s.s.ProductServiceImplementation     : Fetching the products by range:ProductServiceImplementation:getProductByRange()
+2020-08-21 09:30:37.511  INFO 14772 --- [reactor-http-nio-2] c.e.s.controller.ProductController       : API received request: /my-eebria/product input param: type: 
+2020-08-21 09:30:37.511  INFO 14772 --- [reactor-http-nio-2] c.e.s.s.ProductServiceImplementation     : Fetching the products:ProductServiceImplementation:getAllProducts()
+2020-08-21 09:34:31.686  INFO 14772 --- [reactor-http-nio-2] c.e.s.controller.ProductController       : API received request: /my-eebria/product/expensive input param: range: expensive
+2020-08-21 09:34:31.688  INFO 14772 --- [reactor-http-nio-2] c.e.s.s.ProductServiceImplementation     : Fetching the products by range:ProductServiceImplementation:getProductByRange()
+2020-08-21 09:35:22.101  INFO 14772 --- [reactor-http-nio-2] c.e.s.controller.ProductController       : API received request: /my-eebria/product input param: type: cider
+2020-08-21 09:35:22.104  INFO 14772 --- [reactor-http-nio-2] c.e.s.s.ProductServiceImplementation     : Fetching the products by type:ProductServiceImplementation:getProductsByType()
+2020-08-21 09:36:25.014  INFO 14772 --- [reactor-http-nio-2] c.e.s.controller.ProductController       : API received request: /my-eebria/product input param: type: 
+2020-08-21 09:36:25.015  INFO 14772 --- [reactor-http-nio-2] c.e.s.s.ProductServiceImplementation     : Fetching the products:ProductServiceImplementation:getAllProducts()
+2020-08-21 09:37:03.798  INFO 14772 --- [reactor-http-nio-2] c.e.s.controller.ProductController       : API received request: /my-eebria/product input param: type: 
+2020-08-21 09:37:03.799  INFO 14772 --- [reactor-http-nio-2] c.e.s.s.ProductServiceImplementation     : Fetching the products:ProductServiceImplementation:getAllProducts()
+2020-08-21 09:37:31.305  INFO 14772 --- [reactor-http-nio-2] c.e.s.controller.ProductController       : API received request: /my-eebria/product input param: type: 
+2020-08-21 09:37:31.307  INFO 14772 --- [reactor-http-nio-2] c.e.s.s.ProductServiceImplementation     : Fetching the products:ProductServiceImplementation:getAllProducts()
+2020-08-21 09:37:52.303  INFO 14772 --- [reactor-http-nio-2] c.e.s.controller.ProductController       : API received request: /my-eebria/product input param: type: 
+2020-08-21 09:37:52.304  INFO 14772 --- [reactor-http-nio-2] c.e.s.s.ProductServiceImplementation     : Fetching the products:ProductServiceImplementation:getAllProducts()
+2020-08-21 09:39:46.396  INFO 10168 --- [main] c.e.service.EebriaServiceApplication     : Starting EebriaServiceApplication on pOiNtER with PID 10168 (P:\Github\Eebria-Service\target\classes started by omrfr in P:\Github\Eebria-Service)
+2020-08-21 09:39:46.400 DEBUG 10168 --- [main] c.e.service.EebriaServiceApplication     : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-08-21 09:39:46.402  INFO 10168 --- [main] c.e.service.EebriaServiceApplication     : No active profile set, falling back to default profiles: default
+2020-08-21 09:39:50.169  INFO 10168 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 8080
+2020-08-21 09:39:50.562  INFO 10168 --- [main] c.e.service.EebriaServiceApplication     : Started EebriaServiceApplication in 4.595 seconds (JVM running for 5.377)
+2020-08-21 09:39:56.951  INFO 10168 --- [reactor-http-nio-2] c.e.s.controller.ProductController       : API received request: /my-eebria/product input param: type: 
+2020-08-21 09:39:56.952  INFO 10168 --- [reactor-http-nio-2] c.e.s.s.ProductServiceImplementation     : Fetching the products:ProductServiceImplementation:getAllProducts()
+2020-08-21 09:40:08.303  INFO 10168 --- [reactor-http-nio-2] c.e.s.controller.ProductController       : API received request: /my-eebria/product input param: type: 
+2020-08-21 09:40:08.304  INFO 10168 --- [reactor-http-nio-2] c.e.s.s.ProductServiceImplementation     : Fetching the products:ProductServiceImplementation:getAllProducts()
+2020-08-21 09:41:03.833  INFO 10168 --- [reactor-http-nio-2] c.e.s.controller.ProductController       : API received request: /my-eebria/product/sort input params: orderBy: [price, name] ,direction: DESC
+2020-08-21 09:41:03.836  INFO 10168 --- [reactor-http-nio-2] c.e.s.s.ProductServiceImplementation     : Fetching the sorted products:ProductServiceImplementation:sortProducts()
+2020-08-21 09:42:47.004  INFO 16776 --- [main] c.e.service.EebriaServiceApplication     : Starting EebriaServiceApplication on pOiNtER with PID 16776 (P:\Github\Eebria-Service\target\classes started by omrfr in P:\Github\Eebria-Service)
+2020-08-21 09:42:47.008 DEBUG 16776 --- [main] c.e.service.EebriaServiceApplication     : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-08-21 09:42:47.009  INFO 16776 --- [main] c.e.service.EebriaServiceApplication     : No active profile set, falling back to default profiles: default
+2020-08-21 09:42:50.498  INFO 16776 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 8080
+2020-08-21 09:42:50.902  INFO 16776 --- [main] c.e.service.EebriaServiceApplication     : Started EebriaServiceApplication in 4.338 seconds (JVM running for 5.209)
+2020-08-21 09:42:54.782  INFO 16776 --- [reactor-http-nio-2] c.e.s.controller.ProductController       : API received request: /my-eebria/product/sort input params: orderBy: [price, name] ,direction: DESC
+2020-08-21 09:42:54.786  INFO 16776 --- [reactor-http-nio-2] c.e.s.s.ProductServiceImplementation     : Fetching the sorted products:ProductServiceImplementation:sortProducts()
+2020-08-21 09:43:02.235  INFO 16776 --- [reactor-http-nio-2] c.e.s.controller.ProductController       : API received request: /my-eebria/product/sort input params: orderBy: [price, name] ,direction: ASC
+2020-08-21 09:43:02.237  INFO 16776 --- [reactor-http-nio-2] c.e.s.s.ProductServiceImplementation     : Fetching the sorted products:ProductServiceImplementation:sortProducts()
+2020-08-21 09:43:08.491  INFO 16776 --- [reactor-http-nio-2] c.e.s.controller.ProductController       : API received request: /my-eebria/product/sort input params: orderBy: [name] ,direction: ASC
+2020-08-21 09:43:08.493  INFO 16776 --- [reactor-http-nio-2] c.e.s.s.ProductServiceImplementation     : Fetching the sorted products:ProductServiceImplementation:sortProducts()
+2020-08-21 09:43:16.692  INFO 16776 --- [reactor-http-nio-2] c.e.s.controller.ProductController       : API received request: /my-eebria/product/sort input params: orderBy: [name] ,direction: DESC
+2020-08-21 09:43:16.697  INFO 16776 --- [reactor-http-nio-2] c.e.s.s.ProductServiceImplementation     : Fetching the sorted products:ProductServiceImplementation:sortProducts()
+2020-08-21 09:43:30.143  INFO 16776 --- [reactor-http-nio-2] c.e.s.controller.ProductController       : API received request: /my-eebria/product/sort input params: orderBy: [price] ,direction: DESC
+2020-08-21 09:43:30.149  INFO 16776 --- [reactor-http-nio-2] c.e.s.s.ProductServiceImplementation     : Fetching the sorted products:ProductServiceImplementation:sortProducts()
+2020-08-21 09:43:39.689  INFO 16776 --- [reactor-http-nio-2] c.e.s.controller.ProductController       : API received request: /my-eebria/product/sort input params: orderBy: [price] ,direction: ASC
+2020-08-21 09:43:39.691  INFO 16776 --- [reactor-http-nio-2] c.e.s.s.ProductServiceImplementation     : Fetching the sorted products:ProductServiceImplementation:sortProducts()
+2020-08-21 09:43:49.298  INFO 16776 --- [reactor-http-nio-2] c.e.s.controller.ProductController       : API received request: /my-eebria/product input param: type: 
+2020-08-21 09:43:49.299  INFO 16776 --- [reactor-http-nio-2] c.e.s.s.ProductServiceImplementation     : Fetching the products:ProductServiceImplementation:getAllProducts()
+2020-08-21 10:04:56.146  INFO 12852 --- [main] c.e.service.EebriaServiceApplication     : Starting EebriaServiceApplication on pOiNtER with PID 12852 (P:\Github\Eebria-Service\target\classes started by omrfr in P:\Github\Eebria-Service)
+2020-08-21 10:04:56.150 DEBUG 12852 --- [main] c.e.service.EebriaServiceApplication     : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-08-21 10:04:56.152  INFO 12852 --- [main] c.e.service.EebriaServiceApplication     : No active profile set, falling back to default profiles: default
+2020-08-21 10:04:58.949  WARN 12852 --- [main] onfigReactiveWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/C:/Users/omrfr/.m2/repository/io/springfox/springfox-spring-web/3.0.0/springfox-spring-web-3.0.0.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webFluxRequestHandlerProvider' defined in URL [jar:file:/C:/Users/omrfr/.m2/repository/io/springfox/springfox-spring-webflux/3.0.0/springfox-spring-webflux-3.0.0.jar!/springfox/documentation/spring/web/plugins/WebFluxRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/reactive/WebFluxAutoConfiguration$EnableWebFluxConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'productController' method 
+com.eebria.service.controller.ProductController#getAllProducts(ServerHttpRequest)
+to {GET /my-eebria/product}: There is already 'productController' bean method
+com.eebria.service.controller.ProductController#getProductsByType(String, ServerHttpRequest) mapped.
+2020-08-21 10:04:58.981  INFO 12852 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-08-21 10:04:58.993 ERROR 12852 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/C:/Users/omrfr/.m2/repository/io/springfox/springfox-spring-web/3.0.0/springfox-spring-web-3.0.0.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webFluxRequestHandlerProvider' defined in URL [jar:file:/C:/Users/omrfr/.m2/repository/io/springfox/springfox-spring-webflux/3.0.0/springfox-spring-webflux-3.0.0.jar!/springfox/documentation/spring/web/plugins/WebFluxRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/reactive/WebFluxAutoConfiguration$EnableWebFluxConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'productController' method 
+com.eebria.service.controller.ProductController#getAllProducts(ServerHttpRequest)
+to {GET /my-eebria/product}: There is already 'productController' bean method
+com.eebria.service.controller.ProductController#getProductsByType(String, ServerHttpRequest) mapped.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:797)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:227)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:62)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.eebria.service.EebriaServiceApplication.main(EebriaServiceApplication.java:26)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webFluxRequestHandlerProvider' defined in URL [jar:file:/C:/Users/omrfr/.m2/repository/io/springfox/springfox-spring-webflux/3.0.0/springfox-spring-webflux-3.0.0.jar!/springfox/documentation/spring/web/plugins/WebFluxRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/reactive/WebFluxAutoConfiguration$EnableWebFluxConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'productController' method 
+com.eebria.service.controller.ProductController#getAllProducts(ServerHttpRequest)
+to {GET /my-eebria/product}: There is already 'productController' bean method
+com.eebria.service.controller.ProductController#getProductsByType(String, ServerHttpRequest) mapped.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:797)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:227)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1525)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1489)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1378)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1265)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:884)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/reactive/WebFluxAutoConfiguration$EnableWebFluxConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'productController' method 
+com.eebria.service.controller.ProductController#getAllProducts(ServerHttpRequest)
+to {GET /my-eebria/product}: There is already 'productController' bean method
+com.eebria.service.controller.ProductController#getProductsByType(String, ServerHttpRequest) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1794)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1525)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1489)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1378)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1265)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:884)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+	... 37 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'productController' method 
+com.eebria.service.controller.ProductController#getAllProducts(ServerHttpRequest)
+to {GET /my-eebria/product}: There is already 'productController' bean method
+com.eebria.service.controller.ProductController#getProductsByType(String, ServerHttpRequest) mapped.
+	at org.springframework.web.reactive.result.method.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:507)
+	at org.springframework.web.reactive.result.method.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:485)
+	at org.springframework.web.reactive.result.method.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:243)
+	at org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:271)
+	at org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:59)
+	at org.springframework.web.reactive.result.method.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:213)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.web.reactive.result.method.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:211)
+	at org.springframework.web.reactive.result.method.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:189)
+	at org.springframework.web.reactive.result.method.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:157)
+	at org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:126)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1790)
+	... 51 common frames omitted
+
+2020-08-21 10:06:30.166  INFO 17684 --- [main] c.e.service.EebriaServiceApplication     : Starting EebriaServiceApplication on pOiNtER with PID 17684 (P:\Github\Eebria-Service\target\classes started by omrfr in P:\Github\Eebria-Service)
+2020-08-21 10:06:30.170 DEBUG 17684 --- [main] c.e.service.EebriaServiceApplication     : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-08-21 10:06:30.172  INFO 17684 --- [main] c.e.service.EebriaServiceApplication     : No active profile set, falling back to default profiles: default
+2020-08-21 10:06:33.063  WARN 17684 --- [main] onfigReactiveWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/C:/Users/omrfr/.m2/repository/io/springfox/springfox-spring-web/3.0.0/springfox-spring-web-3.0.0.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webFluxRequestHandlerProvider' defined in URL [jar:file:/C:/Users/omrfr/.m2/repository/io/springfox/springfox-spring-webflux/3.0.0/springfox-spring-webflux-3.0.0.jar!/springfox/documentation/spring/web/plugins/WebFluxRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/reactive/WebFluxAutoConfiguration$EnableWebFluxConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'productController' method 
+com.eebria.service.controller.ProductController#getAllProducts(ServerHttpRequest)
+to {GET /my-eebria/product}: There is already 'productController' bean method
+com.eebria.service.controller.ProductController#getProductsByType(String, ServerHttpRequest) mapped.
+2020-08-21 10:06:33.088  INFO 17684 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-08-21 10:06:33.098 ERROR 17684 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/C:/Users/omrfr/.m2/repository/io/springfox/springfox-spring-web/3.0.0/springfox-spring-web-3.0.0.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webFluxRequestHandlerProvider' defined in URL [jar:file:/C:/Users/omrfr/.m2/repository/io/springfox/springfox-spring-webflux/3.0.0/springfox-spring-webflux-3.0.0.jar!/springfox/documentation/spring/web/plugins/WebFluxRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/reactive/WebFluxAutoConfiguration$EnableWebFluxConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'productController' method 
+com.eebria.service.controller.ProductController#getAllProducts(ServerHttpRequest)
+to {GET /my-eebria/product}: There is already 'productController' bean method
+com.eebria.service.controller.ProductController#getProductsByType(String, ServerHttpRequest) mapped.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:797)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:227)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:62)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.eebria.service.EebriaServiceApplication.main(EebriaServiceApplication.java:26)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webFluxRequestHandlerProvider' defined in URL [jar:file:/C:/Users/omrfr/.m2/repository/io/springfox/springfox-spring-webflux/3.0.0/springfox-spring-webflux-3.0.0.jar!/springfox/documentation/spring/web/plugins/WebFluxRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/reactive/WebFluxAutoConfiguration$EnableWebFluxConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'productController' method 
+com.eebria.service.controller.ProductController#getAllProducts(ServerHttpRequest)
+to {GET /my-eebria/product}: There is already 'productController' bean method
+com.eebria.service.controller.ProductController#getProductsByType(String, ServerHttpRequest) mapped.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:797)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:227)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1525)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1489)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1378)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1265)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:884)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/reactive/WebFluxAutoConfiguration$EnableWebFluxConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'productController' method 
+com.eebria.service.controller.ProductController#getAllProducts(ServerHttpRequest)
+to {GET /my-eebria/product}: There is already 'productController' bean method
+com.eebria.service.controller.ProductController#getProductsByType(String, ServerHttpRequest) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1794)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1525)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1489)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1378)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1265)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:884)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+	... 37 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'productController' method 
+com.eebria.service.controller.ProductController#getAllProducts(ServerHttpRequest)
+to {GET /my-eebria/product}: There is already 'productController' bean method
+com.eebria.service.controller.ProductController#getProductsByType(String, ServerHttpRequest) mapped.
+	at org.springframework.web.reactive.result.method.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:507)
+	at org.springframework.web.reactive.result.method.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:485)
+	at org.springframework.web.reactive.result.method.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:243)
+	at org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:271)
+	at org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:59)
+	at org.springframework.web.reactive.result.method.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:213)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.web.reactive.result.method.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:211)
+	at org.springframework.web.reactive.result.method.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:189)
+	at org.springframework.web.reactive.result.method.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:157)
+	at org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:126)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1790)
+	... 51 common frames omitted
+
+2020-08-21 10:06:58.345  INFO 1440 --- [main] c.e.service.EebriaServiceApplication     : Starting EebriaServiceApplication on pOiNtER with PID 1440 (P:\Github\Eebria-Service\target\classes started by omrfr in P:\Github\Eebria-Service)
+2020-08-21 10:06:58.351 DEBUG 1440 --- [main] c.e.service.EebriaServiceApplication     : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-08-21 10:06:58.352  INFO 1440 --- [main] c.e.service.EebriaServiceApplication     : No active profile set, falling back to default profiles: default
+2020-08-21 10:07:00.885  WARN 1440 --- [main] onfigReactiveWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/C:/Users/omrfr/.m2/repository/io/springfox/springfox-spring-web/3.0.0/springfox-spring-web-3.0.0.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webFluxRequestHandlerProvider' defined in URL [jar:file:/C:/Users/omrfr/.m2/repository/io/springfox/springfox-spring-webflux/3.0.0/springfox-spring-webflux-3.0.0.jar!/springfox/documentation/spring/web/plugins/WebFluxRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/reactive/WebFluxAutoConfiguration$EnableWebFluxConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'productController' method 
+com.eebria.service.controller.ProductController#getAllProducts(ServerHttpRequest)
+to {GET /my-eebria/product}: There is already 'productController' bean method
+com.eebria.service.controller.ProductController#getProductsByType(String, ServerHttpRequest) mapped.
+2020-08-21 10:07:00.913  INFO 1440 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-08-21 10:07:00.924 ERROR 1440 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/C:/Users/omrfr/.m2/repository/io/springfox/springfox-spring-web/3.0.0/springfox-spring-web-3.0.0.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webFluxRequestHandlerProvider' defined in URL [jar:file:/C:/Users/omrfr/.m2/repository/io/springfox/springfox-spring-webflux/3.0.0/springfox-spring-webflux-3.0.0.jar!/springfox/documentation/spring/web/plugins/WebFluxRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/reactive/WebFluxAutoConfiguration$EnableWebFluxConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'productController' method 
+com.eebria.service.controller.ProductController#getAllProducts(ServerHttpRequest)
+to {GET /my-eebria/product}: There is already 'productController' bean method
+com.eebria.service.controller.ProductController#getProductsByType(String, ServerHttpRequest) mapped.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:797)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:227)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:62)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.eebria.service.EebriaServiceApplication.main(EebriaServiceApplication.java:26)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webFluxRequestHandlerProvider' defined in URL [jar:file:/C:/Users/omrfr/.m2/repository/io/springfox/springfox-spring-webflux/3.0.0/springfox-spring-webflux-3.0.0.jar!/springfox/documentation/spring/web/plugins/WebFluxRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/reactive/WebFluxAutoConfiguration$EnableWebFluxConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'productController' method 
+com.eebria.service.controller.ProductController#getAllProducts(ServerHttpRequest)
+to {GET /my-eebria/product}: There is already 'productController' bean method
+com.eebria.service.controller.ProductController#getProductsByType(String, ServerHttpRequest) mapped.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:797)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:227)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1525)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1489)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1378)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1265)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:884)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/reactive/WebFluxAutoConfiguration$EnableWebFluxConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'productController' method 
+com.eebria.service.controller.ProductController#getAllProducts(ServerHttpRequest)
+to {GET /my-eebria/product}: There is already 'productController' bean method
+com.eebria.service.controller.ProductController#getProductsByType(String, ServerHttpRequest) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1794)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1525)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1489)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1378)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1265)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:884)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+	... 37 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'productController' method 
+com.eebria.service.controller.ProductController#getAllProducts(ServerHttpRequest)
+to {GET /my-eebria/product}: There is already 'productController' bean method
+com.eebria.service.controller.ProductController#getProductsByType(String, ServerHttpRequest) mapped.
+	at org.springframework.web.reactive.result.method.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:507)
+	at org.springframework.web.reactive.result.method.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:485)
+	at org.springframework.web.reactive.result.method.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:243)
+	at org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:271)
+	at org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:59)
+	at org.springframework.web.reactive.result.method.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:213)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.web.reactive.result.method.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:211)
+	at org.springframework.web.reactive.result.method.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:189)
+	at org.springframework.web.reactive.result.method.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:157)
+	at org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:126)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1790)
+	... 51 common frames omitted
+
+2020-08-21 10:09:40.326  INFO 10480 --- [main] c.e.service.EebriaServiceApplication     : Starting EebriaServiceApplication on pOiNtER with PID 10480 (P:\Github\Eebria-Service\target\classes started by omrfr in P:\Github\Eebria-Service)
+2020-08-21 10:09:40.331 DEBUG 10480 --- [main] c.e.service.EebriaServiceApplication     : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-08-21 10:09:40.333  INFO 10480 --- [main] c.e.service.EebriaServiceApplication     : No active profile set, falling back to default profiles: default
+2020-08-21 10:09:43.969  WARN 10480 --- [main] onfigReactiveWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/C:/Users/omrfr/.m2/repository/io/springfox/springfox-spring-web/3.0.0/springfox-spring-web-3.0.0.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webFluxRequestHandlerProvider' defined in URL [jar:file:/C:/Users/omrfr/.m2/repository/io/springfox/springfox-spring-webflux/3.0.0/springfox-spring-webflux-3.0.0.jar!/springfox/documentation/spring/web/plugins/WebFluxRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/reactive/WebFluxAutoConfiguration$EnableWebFluxConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'productController' method 
+com.eebria.service.controller.ProductController#getProductsByType(String, ServerHttpRequest)
+to {GET /my-eebria/product}: There is already 'productController' bean method
+com.eebria.service.controller.ProductController#getAllProducts(ServerHttpRequest) mapped.
+2020-08-21 10:09:43.997  INFO 10480 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-08-21 10:09:44.009 ERROR 10480 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/C:/Users/omrfr/.m2/repository/io/springfox/springfox-spring-web/3.0.0/springfox-spring-web-3.0.0.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webFluxRequestHandlerProvider' defined in URL [jar:file:/C:/Users/omrfr/.m2/repository/io/springfox/springfox-spring-webflux/3.0.0/springfox-spring-webflux-3.0.0.jar!/springfox/documentation/spring/web/plugins/WebFluxRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/reactive/WebFluxAutoConfiguration$EnableWebFluxConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'productController' method 
+com.eebria.service.controller.ProductController#getProductsByType(String, ServerHttpRequest)
+to {GET /my-eebria/product}: There is already 'productController' bean method
+com.eebria.service.controller.ProductController#getAllProducts(ServerHttpRequest) mapped.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:797)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:227)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:62)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.eebria.service.EebriaServiceApplication.main(EebriaServiceApplication.java:26)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webFluxRequestHandlerProvider' defined in URL [jar:file:/C:/Users/omrfr/.m2/repository/io/springfox/springfox-spring-webflux/3.0.0/springfox-spring-webflux-3.0.0.jar!/springfox/documentation/spring/web/plugins/WebFluxRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/reactive/WebFluxAutoConfiguration$EnableWebFluxConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'productController' method 
+com.eebria.service.controller.ProductController#getProductsByType(String, ServerHttpRequest)
+to {GET /my-eebria/product}: There is already 'productController' bean method
+com.eebria.service.controller.ProductController#getAllProducts(ServerHttpRequest) mapped.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:797)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:227)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1525)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1489)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1378)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1265)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:884)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/reactive/WebFluxAutoConfiguration$EnableWebFluxConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'productController' method 
+com.eebria.service.controller.ProductController#getProductsByType(String, ServerHttpRequest)
+to {GET /my-eebria/product}: There is already 'productController' bean method
+com.eebria.service.controller.ProductController#getAllProducts(ServerHttpRequest) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1794)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1525)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1489)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1378)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1265)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:884)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+	... 37 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'productController' method 
+com.eebria.service.controller.ProductController#getProductsByType(String, ServerHttpRequest)
+to {GET /my-eebria/product}: There is already 'productController' bean method
+com.eebria.service.controller.ProductController#getAllProducts(ServerHttpRequest) mapped.
+	at org.springframework.web.reactive.result.method.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:507)
+	at org.springframework.web.reactive.result.method.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:485)
+	at org.springframework.web.reactive.result.method.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:243)
+	at org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:271)
+	at org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:59)
+	at org.springframework.web.reactive.result.method.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:213)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.web.reactive.result.method.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:211)
+	at org.springframework.web.reactive.result.method.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:189)
+	at org.springframework.web.reactive.result.method.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:157)
+	at org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:126)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1790)
+	... 51 common frames omitted
+
+2020-08-21 10:14:03.964  INFO 21028 --- [main] c.e.service.EebriaServiceApplication     : Starting EebriaServiceApplication on pOiNtER with PID 21028 (P:\Github\Eebria-Service\target\classes started by omrfr in P:\Github\Eebria-Service)
+2020-08-21 10:14:03.968 DEBUG 21028 --- [main] c.e.service.EebriaServiceApplication     : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-08-21 10:14:03.969  INFO 21028 --- [main] c.e.service.EebriaServiceApplication     : No active profile set, falling back to default profiles: default
+2020-08-21 10:14:07.621  INFO 21028 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 8080
+2020-08-21 10:14:08.004  INFO 21028 --- [main] c.e.service.EebriaServiceApplication     : Started EebriaServiceApplication in 4.483 seconds (JVM running for 5.263)
+2020-08-21 10:14:29.681  INFO 21028 --- [reactor-http-nio-2] c.e.s.controller.ProductController       : API received request: /my-eebria/product input param: type: 
+2020-08-21 10:14:29.684  INFO 21028 --- [reactor-http-nio-2] c.e.s.s.ProductServiceImplementation     : Fetching the products:ProductServiceImplementation:getAllProducts()
+2020-08-21 10:14:45.159  INFO 21028 --- [reactor-http-nio-2] c.e.s.controller.ProductController       : API received request: /my-eebria/product input param: type: 
+2020-08-21 10:14:45.160  INFO 21028 --- [reactor-http-nio-2] c.e.s.s.ProductServiceImplementation     : Fetching the products:ProductServiceImplementation:getAllProducts()
+2020-08-21 10:14:52.844  INFO 21028 --- [reactor-http-nio-2] c.e.s.controller.ProductController       : API received request: /my-eebria/product/sort input params: orderBy: [name, price] ,direction: DESC
+2020-08-21 10:14:52.849  INFO 21028 --- [reactor-http-nio-2] c.e.s.s.ProductServiceImplementation     : Fetching the sorted products:ProductServiceImplementation:sortProducts()
