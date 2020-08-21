@@ -1,8 +1,4 @@
 import React, { Component } from 'react'
-import {
-    Container,Row,  Col, Card, CardImg, CardText, CardBody, CardBlock,
-    CardTitle, CardSubtitle, Button
-} from 'reactstrap';
 
 export class Productard extends Component {
     constructor(props){
