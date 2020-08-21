@@ -8,5 +8,5 @@ Client and server applications are formed as separate projects.
 
 **Client Application:** [eebria-ui](eebria-ui)
 
-**Server Application:** [Eebria-Service]Eebria-Service)
+**Server Application:** [Eebria-Service](Eebria-Service)
 
