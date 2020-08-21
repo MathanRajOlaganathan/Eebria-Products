@@ -45,8 +45,6 @@ docker run  -d -p 8080:8080 mathanpointer/eebria-service
 
 ```
 
-
-
 The server will start at <http://localhost:8080>.
 
 The swagger will start at <http://localhost:8080/swagger-ui/>.
@@ -58,10 +56,12 @@ The application defines following REST APIs
 ```
 1. GET /my-eebria/product - Get All Products
 
-2. GET /my-eebria/product?type=beer - Get  All Products  by type
+2. GET /my-eebria/product?type=beer - Get  All Products  by type (type - beer  or cider)
 
-3. GET ​/my-eebria​/product​/{range} - Retrieve a Product by range
+3. GET ​/my-eebria​/product​/{range} - Retrieve a Product by range (range - cheaper or expensive)
 
-3. GET ​/my-eebria​/product​/sort?OrderBy=name,price&direction=ASC - Retrieve all Products Ordered by name,price in ascending or descending direction
+3. GET ​/my-eebria​/product​/sort?OrderBy=name,price&direction=ASC - Retrieve all Products Ordered by name,price in ascending or descending direction ( sorting can be done by  name or price alone or both ascending and descending.  orderBy - name,price direction-ASC or DESC)
 
 ```
+
+![getProductsByType](https://github.com/MathanRajOlaganathan/Eebria-Products/Eebria-Service/imgs/eebria-type.jpg?raw=true)
